@@ -1,0 +1,13 @@
+names:
+- benign
+- malignant
+nc: 2
+roboflow:
+  license: CC BY 4.0
+  project: skin_cancer_detection-v2
+  url: https://universe.roboflow.com/surawiwat-school-suranaree-university-of-technology/skin_cancer_detection-v2/dataset/8
+  version: 8
+  workspace: surawiwat-school-suranaree-university-of-technology
+test: ../test/images
+train: ../train/images
+val: ../valid/images
