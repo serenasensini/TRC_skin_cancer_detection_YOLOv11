@@ -13,4 +13,6 @@ yolo task=detect mode=val model=runs\detect\train14\weights\best.pt data=data.ya
 yolo task=detect mode=predict model=runs\detect\train14\weights\best.pt conf=0.25 source=test\images save=True
 ```
 
+[Dataset originale](https://universe.roboflow.com/surawiwat-school-suranaree-university-of-technology/skin_cancer_detection-v2)
+
 Per maggiori info, trovi l'articolo completo [qui](https://theredcode.it/intelligenza-artificiale/skin-cancer-detection-con-yolo-v11)
